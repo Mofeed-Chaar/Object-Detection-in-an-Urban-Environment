@@ -256,10 +256,11 @@ we implement the following steps:
  
 **precision recall curve is plot**
 <img src="img/result13.png">
+
 **precition and recall over images from 50 to 150**
     
-I the prevouse result we use model-based detection    
-I we update the config parameter ```configs_det.use_labels_as_objects = True```, we will get the perfect result because we utilized the groundtruth labels and we will get the following result:
+In the prevouse result we use model-based detection    
+If we update the config parameter ```configs_det.use_labels_as_objects = True```, we will get the perfect result because we utilized the groundtruth labels and we will get the following result:
 <img src="img/result14.png">
 
 ## Summary
