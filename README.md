@@ -260,7 +260,7 @@ we implement the following steps:
  
 **precition and recall over images from 50 to 150**
     
-In the prevouse result we use model-based detection    
+In the prevouse result we used a model-based detection    
 If we update the config parameter ```configs_det.use_labels_as_objects = True```, we will get the perfect result because we utilized the groundtruth labels and we will get the following result:
 <img src="img/result14.png">
 
