@@ -250,7 +250,7 @@ we implement the following steps:
 
 - Compute intersection-over-union between labels and detections (ID_S4_EX1)
 - computed the false negatives and false positives (ID_S4_EX2)
-- deleted the Iou and kept the maximum confidence if the Iou over the threshold (in our work we used Iou=0.5).
+- deleted the IOU and kept the maximum IOU if the IOU over the threshold (in our work we used IOU=0.5).
 - comput the precition and recall and plot the results as following:
 <img src="img/result12.png">
  
