@@ -255,7 +255,7 @@ we implement the following steps:
 <img src="img/result12.png">
  
 **precision recall curve is plot**
-<img src="img/result13.png">
+<img src="img/result13.png"/>
 
 **precition and recall over images from 50 to 150**
     
