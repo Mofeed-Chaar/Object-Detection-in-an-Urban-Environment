@@ -86,7 +86,7 @@ in the function ```bev_from_pcl``` at ``` student/objdet_pcl.py```, we assigned 
 and we get the following result:
 <img src="img/result10.png">
 **height map**
-## Step 3: Model-based Object Detection in BEV Image (ID_S3_EX1) and (ID_S§_EX2)
+## Step 3: Model-based Object Detection in BEV Image (ID_S3_EX1) and (ID_SÂ§_EX2)
 In the file ```loop_over_dataset.py``` we uptate the following parameters:
 - ```show_only_frames = [50, 51]```
 - ```exec_data = ['pcl_from_rangeimage', 'load_image']```
@@ -124,8 +124,8 @@ we implement the following steps:
 <img src="img/result13.png">
 **precition and recall over images from 50 to 150**
     
-I the prevouse result we use model-based detection    
-I we update the config parameter ```configs_det.use_labels_as_objects = True```, we will get the perfect result because we utilized the groundtruth labels and we will get the following result:
+In the prevouse result we used a model-based detection    
+If we update the config parameter ```configs_det.use_labels_as_objects = True```, we will get the perfect result because we utilized the groundtruth labels and we will get the following result:
 <img src="img/result14.png">
 
 ## Summary
