@@ -257,6 +257,7 @@ we implement the following steps:
 **precision recall curve is plot**
 <img src="img/result13.png"/>
 
+ 
 **precition and recall over images from 50 to 150**
     
 In the prevouse result we use model-based detection    
